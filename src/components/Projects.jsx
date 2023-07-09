@@ -7,14 +7,15 @@ const Projects = () => {
   return (
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
         <h1 className='font-bold text-4xl text-center '>Projects</h1>
-        <p className='text-center py-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est minus, amet autem repellat atque sit nisi
-        aut natus, ad quidem voluptatibus alias ratione labore! Aspernatur alias recusandae illum ea impedit!</p>
+        <p className='text-center py-8 text-gray-500'>HERE ARE SOME OF MY FRONTEND PROJECTS! I HAVE USED MAINLY THE FOLLOWING TOOLS:
+        HTML ,CSS ,JAVASCRIPT,REACTJS AND TAILWINDCSS</p>
 
         <div className='grid sm:grid-cols-2 gap-12'>
-            <ProjectItem img={foodImg} title='food app'/>
+            <a href="https://food-store-project.vercel.app/" target='_blank'> <ProjectItem img={foodImg} title='food app'/></a>
+           
            <a href="https://blogs-website-phi.vercel.app/create" target="_blank"><ProjectItem img={blogsImg} title='blogs app'/></a>
             
-            <ProjectItem img={loginpageImg} title='login page frontend  app'/>
+            <a href="https://login-page-react-plum.vercel.app/" target="_blank"><ProjectItem img={loginpageImg} title='login page frontend  app'/></a> 
         </div>
     
     
